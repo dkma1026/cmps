@@ -1,0 +1,47 @@
+# Diana Ma
+# dkma@ucsc.edu
+# Asg 4: OOP Inheritance
+# README
+
+CMPS 109 - Assignment 4
+
+The program is presented in the form of a Unix man(1) page.
+NAME
+	gdraw—drawing program displaying objects in a window
+SYNOPSIS
+	gdraw [ options] [filename]
+OPTIONS
+	All options are recognized by getopt(3).
+	-@ flags
+	The flags specified are passed to the debugging macro. Debug output is
+	printed to the standard error.
+	-w width
+	The initial width of the window. Default : 640.
+	-h height
+	The initial height of the window. Default : 480.
+OPERANDS
+	Commands are read from the file whose name is given as an operand. If no filename is given, commands are read from the standard input.
+
+
+This assignment contains:
+      README
+      Makefile
+      debug.cpp
+      debug.h
+      graphics.cpp
+      interp.cpp
+      interp.h
+      main.cpp
+      mk-colors.perl
+      rgbcolor.cpp
+      rgbcolor.h
+      shape.cpp
+      shape.h
+      util.cpp
+      util.h
+      util.tcc
+     
+
+   Makefile, util.tcc, util.h, util.cpp, rgbcolor.h, rgbcolor.cpp, mk-colors.perl, main.cpp, interp.h, debug.h, debug.cpp : written by Prof Wesley Mackey
+
+   shape.h, shape.cpp, interp.cpp, graphics.h, graphics.cpp : partially written by Prof Wesley Mackey
